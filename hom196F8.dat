@@ -1,0 +1,295 @@
+;Kopfdaten:
+Probenname : 2023\ME_a1_F_rig
+Datum : 06.12.2023
+Uhrzeit : 13:51:31
+Programm : MODULABr0
+;
+Autor : andreeva
+Filename : hom196F8.dat
+Richtung : auf
+Gruppe1 : 
+Gruppe2 : 
+AnzFileGr1 : 
+AnzFileGr2 : 
+;
+Messbedingungen :
+{name : DAC11.offset
+symbol : U1
+unit : mV
+init : 0.36}
+{name : DAC11.factor
+symbol : U1
+unit : mV
+init : 2}
+{name : DAC12
+symbol : U2
+unit : mV
+init : 0.00011501}
+{name : DAC12.offset
+symbol : U2
+unit : mV
+init : -0.1517}
+{name : DAC12.factor
+symbol : U2
+unit : mV
+init : 2}
+{name : DAC13
+symbol : U3
+unit : mV
+init : -0.000532674}
+{name : DAC13.offset
+symbol : U3
+unit : mV
+init : -0.5}
+{name : DAC13.factor
+symbol : U3
+unit : mV
+init : 2}
+{name : DAC14
+symbol : U4
+unit : mV
+init : 0.000441188}
+{name : DAC14.offset
+symbol : U4
+unit : mV
+init : 0.154}
+{name : DAC14.factor
+symbol : U4
+unit : mV
+init : 2}
+{name : DAC21
+symbol : U5
+unit : mV
+init : 0.000503259}
+{name : DAC21.factor
+symbol : U5
+unit : mV
+init : 2}
+{name : DAC22
+symbol : U6
+unit : mV
+init : -0.000492591}
+{name : DAC22.offset
+symbol : U6
+unit : mV
+init : 0.202}
+{name : DAC22.factor
+symbol : U6
+unit : mV
+init : 2}
+{name : DAC23
+symbol : U7
+unit : mV
+init : -0.000450106}
+{name : DAC23.factor
+symbol : U7
+unit : mV
+init : 2}
+{name : DAC24
+symbol : U8
+unit : mV
+init : -0.000162269}
+{name : DAC24.offset
+symbol : U8
+unit : mV
+init : 0.309}
+{name : DAC24.factor
+symbol : U8
+unit : mV
+init : 2}
+{name : DAC Lite 1
+symbol : U9
+unit : mV
+init : 0.021}
+{name : DAC Lite 1.offset
+symbol : U9
+unit : mV
+init : 0.021}
+{name : DAC Lite 1.factor
+symbol : U9
+unit : mV
+init : 2}
+{name : DAC Lite 2
+symbol : U10
+unit : mV
+init : 0.07315}
+{name : DAC Lite 2.offset
+symbol : U10
+unit : mV
+init : 0.07315}
+{name : DAC Lite 2.factor
+symbol : U10
+unit : mV
+init : 2}
+{name : ADC1.offset
+symbol : I1
+unit : nA
+init : -0.051}
+{name : ADC1.factor
+symbol : I1
+unit : nA
+init : -2E+7}
+{name : ADC2.offset
+symbol : I2
+unit : nA
+init : 0.01}
+{name : ADC2.factor
+symbol : I2
+unit : nA
+init : -2E+7}
+{name : ADC3.offset
+symbol : I3
+unit : nA
+init : 0.053}
+{name : ADC3.factor
+symbol : I3
+unit : nA
+init : -2E+7}
+{name : ADC4.offset
+symbol : I4
+unit : nA
+init : 0.068}
+{name : ADC4.factor
+symbol : I4
+unit : nA
+init : -2E+7}
+{name : ADC5.offset
+symbol : I5
+unit : nA
+init : -0.067}
+{name : ADC5.factor
+symbol : I5
+unit : nA
+init : -2E+7}
+{name : ADC6.offset
+symbol : I6
+unit : nA
+init : 0.0525}
+{name : ADC6.factor
+symbol : I6
+unit : nA
+init : -2E+7}
+{name : ADC7.offset
+symbol : I7
+unit : nA
+init : 0.07}
+{name : ADC7.factor
+symbol : I7
+unit : nA
+init : -2E+7}
+{name : ADC8.offset
+symbol : I8
+unit : nA
+init : -0.004}
+{name : ADC8.factor
+symbol : I8
+unit : nA
+init : -2E+7}
+{name : start-delay
+symbol : t0
+unit : s
+init : 0}
+{name : step-delay
+symbol : t1
+unit : ms
+init : 0}
+;
+Messgeräte :
+{name : DAC11 U1 / mV
+ID : DAD Source}
+{name : DAC12
+ID : DAD Source}
+{name : DAC13
+ID : DAD Source}
+{name : DAC14
+ID : DAD Source}
+{name : DAC21
+ID : DAD Source}
+{name : DAC22
+ID : DAD Source}
+{name : DAC23
+ID : DAD Source}
+{name : DAC24
+ID : DAD Source}
+{name : DAC Lite 1
+ID : BigDadboxLite}
+{name : DAC Lite 2
+ID : BigDadboxLite}
+{name : ADC1 I1 / nA
+ID : DAD LogMeter}
+{name : ADC2 I2 / nA
+ID : DAD LogMeter}
+{name : ADC3 I3 / nA
+ID : DAD LogMeter}
+{name : ADC4 I4 / nA
+ID : DAD LogMeter}
+{name : ADC5 I5 / nA
+ID : DAD LogMeter}
+{name : ADC6 I6 / nA
+ID : DAD LogMeter}
+{name : ADC7 I7 / nA
+ID : DAD LogMeter}
+{name : ADC8 I8 / nA
+ID : DAD LogMeter}
+;
+Bemerkung Probe : 
+;
+Abszissenwerte : true
+Abszisse : 
+{name : DAC11
+symbol : U1
+unit : V}
+Ordinaten : 
+{name : ADC1
+symbol : I1
+unit : A}
+{name : ADC2
+symbol : I2
+unit : A}
+{name : ADC3
+symbol : I3
+unit : A}
+{name : ADC4
+symbol : I4
+unit : A}
+{name : ADC5
+symbol : I5
+unit : A}
+{name : ADC6
+symbol : I6
+unit : A}
+{name : ADC7
+symbol : I7
+unit : A}
+{name : ADC8
+symbol : I8
+unit : A}
+Bemerkung Messung : 1
+Werte:
+
+3.0373388E-7	-2.4079105E-8	3.6743747E-8	2.9880077E-8	-4.1853196E-8	1.6333412E-10	4.8094801E-9	-5.0453051E-9	8.2477019E-10
+3.9723271E-5	-2.034415E-8	3.6122152E-8	2.9280327E-8	-4.2413731E-8	1.762202E-10	3.9968887E-9	-5.6860858E-9	1.5015287E-10
+8.023344E-5	-1.6455579E-8	3.5502847E-8	2.8703614E-8	-4.3003575E-8	1.6363911E-10	3.218249E-9	-6.2582169E-9	-5.3479217E-10
+0.00011965298	-1.2664652E-8	3.4840174E-8	2.8112598E-8	-4.354532E-8	1.8350198E-10	2.5204831E-9	-6.7859657E-9	-1.2368866E-9
+0.00016016315	-8.7252579E-9	3.4234193E-8	2.756762E-8	-4.4173926E-8	1.3664696E-10	1.7386008E-9	-7.4850719E-9	-1.9464886E-9
+0.00020051648	-4.9037913E-9	3.3501694E-8	2.6920687E-8	-4.4826734E-8	1.7168338E-10	1.0520887E-9	-8.1033377E-9	-2.6403894E-9
+0.00023993602	-1.1418415E-9	3.2974548E-8	2.6423692E-8	-4.5440589E-8	1.199103E-10	2.7768339E-10	-8.7119651E-9	-3.395037E-9
+0.00028044619	2.8142147E-9	3.2284272E-8	2.5710239E-8	-4.598344E-8	1.4373812E-10	-4.1710692E-10	-9.3826895E-9	-4.0796009E-9
+0.00031986572	6.6426205E-9	3.163225E-8	2.5116782E-8	-4.6507538E-8	1.5792044E-10	-1.0857658E-9	-9.9314294E-9	-4.7590963E-9
+0.00036037589	9.7300211E-9	3.1044212E-8	2.4615935E-8	-4.6959412E-8	1.8003265E-10	-1.7492747E-9	-1.0350108E-8	-5.2798268E-9
+0.00039979543	1.3650733E-8	3.0501337E-8	2.4070728E-8	-4.7579442E-8	1.4385249E-10	-2.4892705E-9	-1.0976565E-8	-6.0337503E-9
+0.0004403056	1.7547921E-8	2.979518E-8	2.3518159E-8	-4.8216852E-8	1.6638408E-10	-3.2458987E-9	-1.1623784E-8	-6.6817671E-9
+0.00047972513	2.1354785E-8	2.9233065E-8	2.2900177E-8	-4.8784666E-8	1.6226663E-10	-3.8730907E-9	-1.2261479E-8	-7.349296E-9
+0.0005202353	2.5153794E-8	2.8559243E-8	2.2338492E-8	-4.9300685E-8	1.81672E-10	-4.584361E-9	-1.279098E-8	-8.0433111E-9
+0.00055965484	2.8915897E-8	2.7883399E-8	2.1742251E-8	-4.9945527E-8	1.6855717E-10	-5.2688895E-9	-1.3442618E-8	-8.7519985E-9
+0.00060016501	3.2893113E-8	2.7272226E-8	2.1136893E-8	-5.052287E-8	1.4400499E-10	-6.0950998E-9	-1.4021645E-8	-9.5228427E-9
+0.00063958455	3.6638325E-8	2.6606765E-8	2.0565025E-8	-5.1205634E-8	1.8639944E-10	-6.7624235E-9	-1.4591871E-8	-1.017166E-8
+0.00068009471	4.045922E-8	2.5950124E-8	1.9948072E-8	-5.1640967E-8	8.1175803E-11	-7.5629602E-9	-1.5361227E-8	-1.0953518E-8
+0.00071951425	4.4297463E-8	2.529039E-8	1.9331996E-8	-5.2333603E-8	1.5296425E-10	-8.1920595E-9	-1.5910424E-8	-1.1578135E-8
+0.00076002442	4.8264652E-8	2.4598358E-8	1.8725647E-8	-5.2969603E-8	1.4469123E-10	-8.9358319E-9	-1.6508346E-8	-1.2299742E-8
+0.00080053459	5.212417E-8	2.3984169E-8	1.8180059E-8	-5.3507079E-8	1.7614395E-10	-9.6145619E-9	-1.7108668E-8	-1.2898597E-8
+0.00083995413	5.5821341E-8	2.3374294E-8	1.7570963E-8	-5.4108128E-8	1.5471798E-10	-1.032011E-8	-1.7652113E-8	-1.3659952E-8
+0.00088046429	5.9777931E-8	2.2791105E-8	1.6996501E-8	-5.4701289E-8	1.7999452E-10	-1.1097872E-8	-1.8290913E-8	-1.442508E-8
+0.00091988383	6.3489286E-8	2.2115527E-8	1.6367915E-8	-5.5288007E-8	1.7507646E-10	-1.1784232E-8	-1.8903578E-8	-1.5064407E-8
+0.000960394	6.7393527E-8	2.1521457E-8	1.5925311E-8	-5.5782072E-8	1.6665095E-10	-1.2631347E-8	-1.9455252E-8	-1.5775877E-8
+0.00099981354	7.1245495E-8	2.0912804E-8	1.5255073E-8	-5.6422493E-8	1.7130214E-10	-1.331847E-8	-2.0086013E-8	-1.6439176E-8
