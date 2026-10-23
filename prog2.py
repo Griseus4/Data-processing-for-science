@@ -61,11 +61,11 @@ class files_processing:
     def spreadsheets(self):
         data_cols = ['U'] + [f"I{str(i)}" for i in range(1, 9)]
         # df_cols = list("12345678")
-        self.df[1] = pd.DataFrame(columns=[i for i in range(1, 9)])
-        self.df[2] = pd.DataFrame(columns=[i for i in range(1, 9)])
+        self.df[1] = pd.DataFrame(index=range(8), columns=[i for i in range(1, 9)], dtype=float)
+        self.df[2] = pd.DataFrame(index=range(8), columns=[i for i in range(1, 9)], dtype=float)
         
         for num in range(8):
-            with open(self.files[num]) as f:
+            with open(self.files[num], encoding="latin-1") as f:
                 i = 0
                 for x in f:
                     i += 1
@@ -91,7 +91,8 @@ class files_processing:
 
                 # print(f"# self.df[1][{elec_num}]\n{self.df[1].loc[:, elec_num]}", end='\n\n')
 
-                self.df[2].loc[:, elec_num] = delta_U / delta_I *10**3
+                # delta_I уже нормирован на 1 мВ; 1000 / delta_I даёт кОм.
+                self.df[2].loc[:, elec_num] = 10**3 / delta_I
 
                 # print(f"# self.df[2][{elec_num}]\n{self.df[2].loc[:, elec_num]}", end="\n\n")
         
